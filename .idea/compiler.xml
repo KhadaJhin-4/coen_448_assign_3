@@ -13,8 +13,5 @@
         <module name="Test" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="coen_448_assign_3" target="17" />
-    </bytecodeTargetLevel>
   </component>
 </project>

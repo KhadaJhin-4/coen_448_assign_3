@@ -171,7 +171,12 @@ public class Quick {
      * @param args the command-line arguments
      */
     public static void main(String[] args) {
+        System.out.print("E");
         String[] a = StdIn.readAllStrings();
+        for (int i =0; i<a.length; i++)
+        {
+            System.out.println("The "  + i + " th element of a is " + a[i]);
+        }
         Quick.sort(a);
         show(a);
         assert isSorted(a);

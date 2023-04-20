@@ -170,8 +170,8 @@ public class Quick {
      *
      * @param args the command-line arguments
      */
-    public static void main(String[] args) {
-        String[] a = StdIn.readAllStrings();
+    public static void main(String[] args, String[] a) {
+                //StdIn.readAllStrings();
         Quick.sort(a);
         show(a);
         assert isSorted(a);
@@ -185,6 +185,7 @@ public class Quick {
             String ith = (String) Quick.select(a, i);
             StdOut.println(ith);
         }
+
     }
 
 }

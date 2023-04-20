@@ -2,6 +2,8 @@ import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 import edu.princeton.cs.algs4.StdRandom;
 
+import java.awt.*;
+
 /******************************************************************************
  *  Compilation:  javac Quick3way.java
  *  Execution:    java Quick3way < input.txt
@@ -117,8 +119,9 @@ public class Quick3way {
      *
      * @param args the command-line arguments
      */
-    public static void main1(String[] args) {
-        String[] a = StdIn.readAllStrings();
+    public static void main(String[] args)  {
+        String[] a = new String[]{"6", "7","1", "2","2", "0","3", "4", "5"};
+                //StdIn.readAllStrings();
         Quick3way.sort(a);
         show(a);
     }

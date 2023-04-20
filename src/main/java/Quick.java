@@ -171,7 +171,7 @@ public class Quick {
      * @param args the command-line arguments
      */
     public static void main(String[] args, String[] a) {
-                //StdIn.readAllStrings();
+        //String[] a = StdIn.readAllStrings();
         Quick.sort(a);
         show(a);
         assert isSorted(a);
